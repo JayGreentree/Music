@@ -1,0 +1,48 @@
+/* air1 styles */
+
+.navbar {
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,42,58,0.05);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,42,58,0.05);
+    box-shadow: 0px 5px 5px 0px rgba(0,42,58,0.05);
+}
+
+h1 {
+    color: #343a40;
+}
+
+p {
+    font-weight: 100;
+    color: #868e96;
+}
+
+a {
+    transition: background-color 0.5s ease;
+}
+
+a:hover {
+    transition: background-color 0.5s ease;
+}
+
+.subhead {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+#header-img {
+    background-image: url('../img/abigail-lynn-316133.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border-style: none;
+    background-color: #f9f9f9;
+}
+
+.test {
+    width: 100%;
+    background-color: darkslategray;
+}

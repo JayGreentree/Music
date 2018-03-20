@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>K-LOVE MUSIC</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- My custom CSS which should be SASS but too bad for now -->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Font Awesome 5 -->
+        <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white hard-shadow sticky-top">
+            <a class="navbar-brand" href="#"><img src="img/logo-klove-cyan.png" height="25" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <small><p class="mb-0 ripple">MENU</p></small>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                <small>
+                    <ul class="navbar-nav">
+                        <li class="nav-item ml-2">
+                            <a class="nav-link ripple-2" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown ml-2">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MUSIC<i class="fas fa-plus d-inline-block d-sm-none float-right"></i></a>
+                            <div class="dropdown-menu hard-shadow border-0 bg-light" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item small py-2" href="#">LISTEN</a>
+                                <a class="dropdown-item small py-2" href="#">SONGS</a>
+                                <a class="dropdown-item small py-2" href="#">ARTISTS</a>
+                                <a class="dropdown-item small py-2" href="#">LYRICS</a>
+                                <a class="dropdown-item small py-2" href="#">RADIO STATIONS</a>
+                                <a class="dropdown-item small py-2" href="#">MOBILE APPS</a>
+                                <a class="dropdown-item small py-2" href="#">VOTE FOR SONGS</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link ripple-2" href="#">MINISTRY</a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link ripple-2" href="#">DJS</a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link ripple-2" href="#">CONTESTS</a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link ripple-2" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link ripple-2" href="#">NEWS</a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link ripple-2" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded bg-white border ripple-2 mx-2" href="#">SIGN IN</a>
+                        </li>
+                        <li class="nav-item ml-2">
+                            <a class="nav-link rounded bg-cyan text-white ripple" href="#">DONATE</a>
+                        </li>
+                    </ul>
+                </small>
+
+            </div>
+        </nav>
+
+        <!-- 2ND NAVBAR -->
+
+
+        <!-- HEADER IMAGE -->
+        <div class="jumbotron mb-0 rounded-0 py-5 bg-kllight" style="background-image: url('https://images.unsplash.com/photo-1507676385008-e7fb562d11f8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1924911e4b9294d36ca2cd0a7058bfe6&auto=format&fit=crop&w=2549&q=80'); background-size: cover; background-position: center;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-9">
+                        <h1 class="text-center text-white font-weight-light mb-4">Looking for music?</h1>
+                        <div class="form-group mb-0">
+                            <input class="form-control border-0 shadow-2" placeholder="Search, songs, lyrics, artists...">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9 mt-4">
+                        <p class="text-center text-white">Show me:</p>
+                        <p class="text-center mb-0">
+                            <button type="button" class="btn btn-outline-primary btn-sm text-white m-1">Everything</button>
+                            <button type="button" class="btn btn-outline-primary btn-sm text-white m-1">Artists</button>
+                            <button type="button" class="btn btn-outline-primary btn-sm text-white m-1">Songs</button>
+                            <button type="button" class="btn btn-outline-primary btn-sm text-white m-1">Lyrics</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RECENTLY PLAYED -->
+        <div class="full-width bg-kllight">
+            <div class="container">
+
+                <!-- TOP SONGS -->
+                <div class="row justify-content-center py-5">
+
+                    <div class="col-11 col-md-12">
+                        <p class="text-secondary subhead"><i class="fas fa-caret-square-right mr-3 text-primary"></i>RECENTLY PLAYED</p>
+                    </div>
+
+                    <div class="col-12 col-md-3 mb-2">
+                        <a href="#" style="text-decoration: none;">
+                            <div class="bg-white clearfix p-2 rounded diffuse ripple-2">
+                                <div class="float-left">
+                                    <img class="" src="img/album-mandisa.jpeg" style="height: 3.5rem;">
+                                </div>
+                                <div class="ml-3 float-left mt-2">
+                                    <p class="small mb-0 font-weight-bold text-uppercase text-dark">Stronger</p>
+                                    <p class="small mb-0 text-secondary text-uppercase">Mandisa</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2">
+                        <a href="#" style="text-decoration: none;">
+                            <div class="bg-white clearfix p-2 rounded diffuse ripple-2">
+                                <div class="float-left">
+                                    <img class="" src="img/album-lincoln-brewster.jpeg" style="height: 3.5rem;">
+                                </div>
+                                <div class="ml-3 float-left mt-2">
+                                    <p class="small mb-0 font-weight-bold text-uppercase text-dark">Like Our God</p>
+                                    <p class="small mb-0 text-secondary text-uppercase">Lincoln Brewser</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2">
+                        <a href="#" style="text-decoration: none;">
+                            <div class="bg-white clearfix p-2 rounded diffuse ripple-2">
+                                <div class="float-left">
+                                    <img class="" src="img/album-tobymac.jpeg" style="height: 3.5rem;">
+                                </div>
+                                <div class="ml-3 float-left mt-2">
+                                    <p class="small mb-0 font-weight-bold text-uppercase text-dark">I Just Need U</p>
+                                    <p class="small mb-0 text-secondary text-uppercase">Tobymac</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2">
+                        <a href="#" style="text-decoration: none;">
+                            <div class="bg-white clearfix p-2 rounded diffuse ripple-2">
+                                <div class="float-left">
+                                    <img class="" src="img/album-tauren-wells.jpeg" style="height: 3.5rem;">
+                                </div>
+                                <div class="ml-3 float-left mt-2">
+                                    <p class="small mb-0 font-weight-bold text-uppercase text-dark">Hills and Valleys</p>
+                                    <p class="small mb-0 text-secondary text-uppercase">Tauren Wells</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- TOP ARTISTS -->
+
+        <div class="container">
+
+            <div class="row justify-content-center my-5">
+
+                <div class="col-11 col-md-12">
+                    <p class="text-secondary subhead"><i class="fas fa-bolt mr-3 text-primary"></i>MUSIC NEWS</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card border-0 mb-4">
+                        <img class="card-img-top rounded" src="img/artist-elevation-worship.png">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <p class="small mb-2 text-magenta">NEW ARTIST</p>
+                            <h2 class="card-title font-weight-bold text-dark mb-2">Elevation Worship releases new single ft. Mack Brock</h2>
+                            <a class="mb-0" href="#">Preview The New Single</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card border-0 mb-4">
+                        <img class="card-img-top rounded" src="img/artist-hillary-scott.png">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <p class="small mb-2 text-magenta">MUSIC NEWS</p>
+                            <h2 class="card-title font-weight-bold text-dark mb-2">Faith is changing the way people think about music</h2>
+                            <a class="mb-0" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card border-0 mb-4">
+                        <img class="card-img-top rounded" src="img/artist-lecrae.png">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <p class="small mb-2 text-magenta">NEW ARTIST</p>
+                            <h2 class="card-title font-weight-bold text-dark mb-2">Chris Tomlin and Lecrae team up to perform</h2>
+                            <a class="mb-0" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card border-0 mb-4">
+                        <img class="card-img-top rounded" src="img/artist-tauren-wells.png">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <p class="small mb-2 text-magenta">FEATURED ARTIST</p>
+                            <h2 class="card-title font-weight-bold text-dark mb-2">Tauren Wells talks about being a pastor and performer</h2>
+                            <a class="mb-0" href="#">Read His Story</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="full-width bg-kllight">
+            <div class="container">
+
+                <!-- TOP SONGS -->
+
+                <div class="row justify-content-center py-5">
+
+                    <div class="col-12">
+                        <div class="text-center">
+                            <div class="btn-group btn-group-toggle mb-5" data-toggle="buttons">
+                                <label class="btn btn-outline-primary btn-sm active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>Top Songs
+                                </label>
+                                <label class="btn btn-outline-primary btn-sm">
+                                    <input type="radio" name="options" id="option3" autocomplete="off">New Songs
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-tenth-avenue-north.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">Followers</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Tenth Avenue North</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-lincoln-brewster.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">Like Our God</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Lincoln Brewser</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-kari-jobe.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">Forever</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Kari Jobe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-danny-gokey.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">Masterpiece</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Danny Gokey</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-big-daddy-weave.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">Lion and the Lamb</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Big Daddy Weave</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-finding-favour.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">Say Amen</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Finding Favour</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-natalie-grant.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">More Than Anything</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Natalie Grant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-2 mb-md-3">
+                        <div class="bg-white clearfix p-2 rounded diffuse">
+                            <div class="float-left">
+                                <img class="" src="img/album-jordan-feliz.jpeg" style="height: 3.5rem;">
+                            </div>
+                            <div class="ml-3 float-left mt-2">
+                                <p class="small mb-0 font-weight-bold text-uppercase">Beloved</p>
+                                <p class="small mb-0 text-secondary text-uppercase">Jordan Feliz</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="col-12 mt-5">
+                <div class="text-center">
+                    <div class="btn-group btn-group-toggle mb-5" data-toggle="buttons">
+                        <label class="btn btn-outline-primary btn-sm active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked>Top Artists
+                        </label>
+                        <label class="btn btn-outline-primary btn-sm">
+                            <input type="radio" name="options" id="option3" autocomplete="off">A - Z
+                        </label>
+                        <label class="btn btn-outline-primary btn-sm">
+                            <input type="radio" name="options" id="option3" autocomplete="off">New Artists
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-4 mb-md-5">
+                    <div class="card border-0">
+                        <img class="card-img-top rounded" src="img/artist-chris-tomlin.png" alt="Card image cap">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <h5 class="card-title text-center font-weight-bold text-dark mb-1">Chris Tomlin</h5>
+                            <p class="text-center mb-0"><a href="#">Visit Artist</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-5">
+                    <div class="card border-0">
+                        <img class="card-img-top rounded" src="img/artist-for-king-country.png" alt="Card image cap">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <h5 class="card-title text-center font-weight-bold text-dark mb-1">for King &amp; Country</h5>
+                            <p class="text-center mb-0"><a href="#">Visit Artist</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-5">
+                    <div class="card border-0">
+                        <img class="card-img-top rounded" src="img/artist-matthew-west.png" alt="Card image cap">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <h5 class="card-title text-center font-weight-bold text-dark mb-1">Matthew West</h5>
+                            <p class="text-center mb-0"><a href="#">Visit Artist</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-5">
+                    <div class="card border-0">
+                        <img class="card-img-top rounded" src="img/artist-hollyn.png" alt="Card image cap">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <h5 class="card-title text-center font-weight-bold text-dark mb-1">Hollyn</h5>
+                            <p class="text-center mb-0"><a href="#">Visit Artist</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-5">
+                    <div class="card border-0">
+                        <img class="card-img-top rounded" src="img/artist-hillary-scott.png" alt="Card image cap">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <h5 class="card-title text-center font-weight-bold text-dark mb-1">Hillary Scott</h5>
+                            <p class="text-center mb-0"><a href="#">Visit Artist</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-5">
+                    <div class="card border-0">
+                        <img class="card-img-top rounded" src="img/artist-tauren-wells.png" alt="Card image cap">
+                        <div class="card-body bg-white rounded diffuse ripple-2 nm-2 mx-3">
+                            <h5 class="card-title text-center font-weight-bold text-dark mb-1">Tauren Wells</h5>
+                            <p class="text-center mb-0"><a href="#">Visit Artist</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col my-md-5"></div>
+
+
+        <!-- FOOTER -->
+        <div class="full-width bg-kllight">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-3">
+                        <p class="my-4"><img class="" src="img/logo-klove-cyan.png" height="25" alt=""></p>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <ul class="list-inline my-4 float-right">
+                            <li class="list-inline-item"><p class="text-dark mb-0 ml-4"><i class="fab fa-facebook-f mr-2 color-facebook"></i>Facebook</p></li>
+                            <li class="list-inline-item"><p class="text-dark mb-0 ml-4"><i class="fab fa-twitter mr-2 text-cyan"></i>Twitter</p></li>
+                            <li class="list-inline-item"><p class="text-dark mb-0 ml-4"><i class="fab fa-instagram mr-2 text-magenta"></i>Instagram</p></li>
+                            <li class="list-inline-item"><p class="text-dark mb-0 ml-4"><i class="fab fa-youtube mr-2 color-youtube"></i>YouTube</p></li>
+                            <li class="list-inline-item"><p class="text-dark mb-0 ml-4"><i class="fab fa-pinterest mr-2 color-pinterest"></i>Pinterest</p></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col"><hr class="m-0"></div>
+                </div>
+
+                <div class="row justify-content-center py-4">
+                    <div class="col-5 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><p class="font-weight-bold text-muted pt-3 mb-2 ">POPULAR LINKS</p></li>
+                            <small>
+                                <li><a href="#" class="text-dark">Stream K-LOVE Online</a></li>
+                                <li><a href="#" class="text-dark">DJs and Shows</a></li>
+                                <li><a href="#" class="text-dark">Verse of the Day</a></li>
+                                <li><a href="#" class="text-dark">Prayer</a></li>
+                                <li><a href="#" class="text-dark">Events</a></li>
+                                <li><a href="#" class="text-dark">Contests</a></li>
+                            </small>
+                        </ul>
+                    </div>
+
+                    <div class="col-5 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><p class="font-weight-bold text-muted pt-3 mb-2">HELP</p></li>
+                            <small>
+                                <li><a href="#" class="text-dark">FAQs</a></li>
+                                <li><a href="#" class="text-dark">My Account</a></li>
+                                <li><a href="#" class="text-dark">Contact Us</a></li>
+                                <li><a href="#" class="text-dark">Privacy Policy</a></li>
+                                <li><a href="#" class="text-dark">Terms of Use</a></li>
+                            </small>
+                        </ul>
+                    </div>
+
+                    <div class="col-5 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><p class="font-weight-bold text-muted pt-3 mb-2">MINISTRY</p></li>
+                            <small>
+                                <li><a href="#" class="text-dark">Submit a Prayer</a></li>
+                                <li><a href="#" class="text-dark">Verse of the Day</a></li>
+                                <li><a href="#" class="text-dark">Seek Advice</a></li>
+                                <li><a href="#" class="text-dark">Pastors</a></li>
+                            </small>
+                        </ul>
+                    </div>
+
+                    <div class="col-5 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><p class="font-weight-bold text-muted pt-3 mb-2">ABOUT US</p></li>
+                            <small>
+                                <li><a href="#" class="text-dark">Mission</a></li>
+                                <li><a href="#" class="text-dark">Jobs</a></li>
+                                <li><a href="#" class="text-dark">Finances</a></li>
+                                <li><a href="#" class="text-dark">Leadership and Key Staff</a></li>
+                                <li><a href="#" class="text-dark">Audited Financials</a></li>
+                                <li><a href="#" class="text-dark">Form 990</a></li>
+                            </small>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12"><hr class="m-0"></div>
+                    <div class="col my-4">
+                        <small><p class="text-center text-muted mb-0">© 2018 Educational Media Foundation, All rights reserved.</p></small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
