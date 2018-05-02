@@ -37,6 +37,21 @@
 .jumbotron {
     overflow:hidden;
     position:relative;
+    height:193px;
+}
+.jumbotron .artist-img-blur {
+    background-position:center 50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    position:absolute;
+    transform:translateX(-50%) translateY(-50%) translateZ(0px);
+    left:50%; top:50%;
+    -webkit-filter:blur(10px);
+    filter:blur(10px);
+    opacity:.75;
+    height:120%;
+    width:120%;
 }
 .jumbotron img {
     position:absolute;
