@@ -33,6 +33,21 @@
 .popover-lyrics {
     margin:0 .5rem;
 }
+
+.jumbotron {
+    overflow:hidden;
+    position:relative;
+}
+.jumbotron img {
+    position:absolute;
+    transform:translateX(-50%) translateY(-50%) translateZ(0px);
+    left:50%; top:50%;
+    opacity:.5;
+    width:120%;
+    -webkit-filter:blur(35px);
+}
+
+
 @media (max-width: 768px) { 
     .song-cards.card-columns {
         column-count:1;
