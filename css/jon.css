@@ -45,6 +45,7 @@
     opacity:.5;
     width:120%;
     -webkit-filter:blur(35px);
+    filter:blur(35px);
 }
 
 
