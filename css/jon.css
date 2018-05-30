@@ -63,6 +63,15 @@
     filter:blur(35px);
 }
 
+.read-all-lyrics {
+    background:linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,.9), rgba(255,255,255,1), rgba(255,255,255,1));
+    display:block;
+    padding:5rem 0 2rem;
+    position:absolute;
+    text-align:center;
+    bottom:0rem; left:0;
+    width:100%;
+}
 
 @media (max-width: 768px) { 
     .song-cards.card-columns {
